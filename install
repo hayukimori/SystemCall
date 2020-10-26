@@ -1,0 +1,33 @@
+#/bin/bash
+
+echo "Pacotes nescessários: pygame, speech_recognition"
+echo "instalando pygame..."
+sudo apt install python3-pygame
+
+echo "instalando SpeechRecognition..."
+pip3 install SpeechRecognition
+
+
+mkdir $HOME/.syscall
+
+echo "copiando SystemCall.py para $HOME ..."
+cp SystemCall.py $HOME
+
+echo "copiando .commandLisy.py para $HOME/.syscall"
+cp .commandList.py $HOME/.syscall/
+
+echo "copiando syscall.sh para $HOME ..."
+cp syscall.sh $HOME
+
+echo "copiano .stacia.py para $HOME/.syscall/ ..."
+cp .stacia.py $HOME/.syscall/
+
+echo "copiando"
+cp comandos.sh $HOME/.syscall/
+
+echo "copiando pasta sound_effects para $HOME/.syscalll/"
+cp -r sound_effects/ $HOME/.syscall/
+
+chmod +x $HOME/syscall.sh
+chmod +x $HOME/.syscall/comandos.sh
+
