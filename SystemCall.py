@@ -247,14 +247,14 @@ def main():
 		mixer.init()
 		mixer.music.load('.syscall/sound_effects/dangaronpa_pc_sfx.mp3')
 		mixer.music.play()
-		os.system("python3 .stacia.py")
+		os.system("python3 stacia.py")
 		main()
 
 	if (command == "STACIA"):
 		mixer.init()
 		mixer.music.load('.syscall/sound_effects/dangaronpa_pc_sfx.mp3')
 		mixer.music.play()
-		os.system("python3 .stacia.py")
+		os.system("python3 stacia.py")
 		main()
 
 #open note
