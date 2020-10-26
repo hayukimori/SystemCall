@@ -14,13 +14,13 @@ echo "copiando SystemCall.py para $HOME ..."
 cp SystemCall.py $HOME
 
 echo "copiando .commandLisy.py para $HOME/.syscall"
-cp .commandList.py $HOME/.syscall/
+cp commandList.py $HOME/.syscall/
 
 echo "copiando syscall.sh para $HOME ..."
 cp syscall.sh $HOME
 
 echo "copiano .stacia.py para $HOME/.syscall/ ..."
-cp .stacia.py $HOME/.syscall/
+cp stacia.py $HOME/.syscall/
 
 echo "copiando"
 cp comandos.sh $HOME/.syscall/
