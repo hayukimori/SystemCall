@@ -1,3 +1,3 @@
 #!/bin/bash
 
-qterminal -e python3 .commandList.py
+gnome-terminal -e python3 commandList.py
