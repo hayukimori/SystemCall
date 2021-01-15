@@ -8,20 +8,20 @@ echo
 echo "Os pacotes que estarão instalados são: python3, python3-pip, SpeechRecognition, pyqt5 e pygame"
 echo "Isso pode ser verificado no arquivo lendo-o com $ cat install"
 
-#sudo -s
-#apt-get install python3 -y
-#apt-get install python3-pip -y
+sudo -s
+apt-get install python3 -y
+apt-get install python3-pip -y
 
 #pip3
 
 
-#pip3 install SpeechRecognition
-#pip3 install pyqt5
-#pip3 install pygame
+pip3 install SpeechRecognition
+pip3 install pyqt5
+pip3 install pygame
 
 #cp and mkdir
 
-#exit
+exit
 echo "Criando pasta SystemCallApp"
 
 
