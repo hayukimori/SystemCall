@@ -1,33 +1,53 @@
-#/bin/bash
-
-echo "Pacotes nescessários: pygame, speech_recognition"
-echo "instalando pygame..."
-sudo apt install python3-pygame
-
-echo "instalando SpeechRecognition..."
-pip3 install SpeechRecognition
+#!/bin/bash
 
 
-mkdir $HOME/.syscall
+#apt
 
-echo "copiando SystemCall.py para $HOME ..."
-cp SystemCall.py $HOME
+echo "Cardinal - Para instalar o SystemCall.py, preciso da sua permissão..."
+echo
+echo "Os pacotes que estarão instalados são: python3, python3-pip, SpeechRecognition, pyqt5 e pygame"
+echo "Isso pode ser verificado no arquivo lendo-o com $ cat install"
 
-echo "copiando .commandLisy.py para $HOME/.syscall"
-cp commandList.py $HOME/.syscall/
+#sudo -s
+#apt-get install python3 -y
+#apt-get install python3-pip -y
 
-echo "copiando syscall.sh para $HOME ..."
-cp syscall.sh $HOME
+#pip3
 
-echo "copiano .stacia.py para $HOME/.syscall/ ..."
-cp stacia.py $HOME/.syscall/
 
-echo "copiando"
-cp comandos.sh $HOME/.syscall/
+#pip3 install SpeechRecognition
+#pip3 install pyqt5
+#pip3 install pygame
 
-echo "copiando pasta sound_effects para $HOME/.syscalll/"
-cp -r sound_effects/ $HOME/.syscall/
+#cp and mkdir
 
-chmod +x $HOME/syscall.sh
-chmod +x $HOME/.syscall/comandos.sh
+#exit
+echo "Criando pasta SystemCallApp"
 
+
+mkdir $HOME/SystemCallApp
+
+echo "Copiando arquivos principais..."
+
+cp main.py $HOME/SystemCallApp
+cp stacia.py $HOME/SystemCallApp
+cp init $HOME/SystemCallApp
+cp "staciawindow.ui" $HOME/SystemCallApp
+cp startscapp.sh $HOME
+cp assets/ -r $HOME/SystemCallApp/
+
+
+echo "Criando atalho no desktop..."
+
+#movendo systemcall-py.desktop
+python3 mkdesktop.py
+cp systemcall-py.desktop $HOME/Desktop
+
+
+
+#Login SAO
+
+echo "Copiando arquivos adicionais..."
+
+
+cp secret/ -r $HOME/SystemCallApp/
