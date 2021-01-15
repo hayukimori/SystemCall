@@ -1,4 +1,4 @@
-#Projeto SystemCall.py
+# Projeto SystemCall.py
 
 O projeto consiste em recriar do zero o sistema de _System Call_ de Sword Art Online Alicization e adaptar ao máximo de dispositivos possíveis
 
@@ -37,9 +37,9 @@ contato: hayukimori@gmail.com
 
 **Apoiadores do Projeto**
 
-Júnior
-Bruno (Nmikkaze)
-Misto Quente
+* Júnior
+* Bruno (Nmikkaze)
+* Misto Quente
 
 
 
