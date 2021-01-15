@@ -66,6 +66,31 @@ def main():
         
         
         
+        #generate umbra element
+        if (command == "ジェネレート umbra エレメント" or command == "ジェネレート アンブラ エレメント" or command == "ジェネレートアンブラエレメント"):
+            os.system("sudo gnome-terminal")
+            main()
+
+	#genrate luminous element
+        if (command == "ジェネレートルミナスエレメント" or command == "ジェネレート ルミナス エレメント"):
+	    os.system("gnome-terminal")
+	    main()
+
+        if(command == "オープン ノート" or command == "オープンノート"):
+            os.system("xterm nano")
+            main()
+            
+        
+        
+        #inspect list
+        """
+        if (command == "インスペクトリスト" or command == "インスペクト リスト" or command == "Inspect List"):
+            
+            os.system("python3 $HOME/SystemCallApp/commandlist.py &")
+            
+	    main()
+        """
+        
         
         #JANELA STACIA
         if (command.lower() == "info" or command.lower() == "stacia" or command.lower() == "window"):
