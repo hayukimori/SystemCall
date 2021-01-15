@@ -32,8 +32,9 @@ os arquivos principais e adicionais também serão copiados para a pasta Home do
 Por conta de dificuldades do Speech_Recognition para reconhecer o inglês(en), o programa ficou em Japonês (ja). Mas consertaremos o erro nas próximas versões. Desculpe-nos pelo transtorno
 
 contatos:
-hayukimori > hayukimori@gmail.com
-kitsune > arthuramagalhaes1312@gmail.com
+
+* hayukimori > hayukimori@gmail.com +
+* kitsune > arthuramagalhaes1312@gmail.com +
 
 
 **Apoiadores do Projeto**
