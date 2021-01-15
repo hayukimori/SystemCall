@@ -29,7 +29,7 @@ os arquivos principais e adicionais também serão copiados para a pasta Home do
 
 **ALERTA**
 
-Por conta de dificuldades do Speech_Recognition para reconhecer o inglês, o programa ficou em Japonês (ja). Mas consertaremos o erro nas próximas versões. Desculpe-nos pelo transtorno
+Por conta de dificuldades do Speech_Recognition para reconhecer o inglês(en), o programa ficou em Japonês (ja). Mas consertaremos o erro nas próximas versões. Desculpe-nos pelo transtorno
 
 contato: hayukimori@gmail.com
 
