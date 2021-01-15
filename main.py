@@ -73,8 +73,8 @@ def main():
 
 	#genrate luminous element
         if (command == "ジェネレートルミナスエレメント" or command == "ジェネレート ルミナス エレメント"):
-	    os.system("gnome-terminal")
-	    main()
+            os.system("gnome-terminal")
+            main()
 
         if(command == "オープン ノート" or command == "オープンノート"):
             os.system("xterm nano")
