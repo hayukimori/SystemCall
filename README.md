@@ -33,8 +33,9 @@ Por conta de dificuldades do Speech_Recognition para reconhecer o inglês(en), o
 
 contatos:
 
-* hayukimori > hayukimori@gmail.com +
-* kitsune > arthuramagalhaes1312@gmail.com +
+* hayukimori > hayukimori@gmail.com
+
+* kitsune > arthuramagalhaes1312@gmail.com
 
 
 **Apoiadores do Projeto**
