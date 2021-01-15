@@ -25,6 +25,16 @@ Após descompactar, abra o terminal e digite:
 Os programas "Python3, Python3-pip, SpeechRecognition(pip3), Pygame(pip3) e pyqt5 " serão instalados automaticamente
 os arquivos principais e adicionais também serão copiados para a pasta Home do usuário
 
+----------------------------------------------------
+
+**ALERTA**
+
+Por conta de dificuldades do Speech_Recognition para reconhecer o inglês, o programa ficou em Japonês (ja). Mas consertaremos o erro nas próximas versões. Desculpe-nos pelo transtorno
+
+contato: hayukimori@gmail.com
+
+
+
 **Versão**
 
 Atualmente está na versão 1.1, mais versões serão enviadas futuramente
