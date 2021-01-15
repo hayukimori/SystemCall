@@ -59,7 +59,7 @@ def main():
     try:
 
         #google dnv
-        command = microphone.recognize_google(recebimento,language='en')
+        command = microphone.recognize_google(recebimento,language='ja')
 
         #retorna o comando
         print(command)
