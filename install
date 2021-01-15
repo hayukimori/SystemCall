@@ -7,10 +7,9 @@ echo "Cardinal - Para instalar o SystemCall.py, preciso da sua permissão..."
 echo
 echo "Os pacotes que estarão instalados são: python3, python3-pip, SpeechRecognition, pyqt5 e pygame"
 echo "Isso pode ser verificado no arquivo lendo-o com $ cat install"
+echo
 
-sudo -s
-apt-get install python3 -y
-apt-get install python3-pip -y
+sudo apt-get install python3 -y && sudo apt-get install python3-pip -y
 
 #pip3
 
@@ -21,7 +20,7 @@ pip3 install pygame
 
 #cp and mkdir
 
-exit
+#exit
 echo "Criando pasta SystemCallApp"
 
 
@@ -32,7 +31,9 @@ echo "Copiando arquivos principais..."
 cp main.py $HOME/SystemCallApp
 cp stacia.py $HOME/SystemCallApp
 cp init $HOME/SystemCallApp
-cp "staciawindow.ui" $HOME/SystemCallApp
+cp staciawindow.ui $HOME/SystemCallApp
+cp staciawindow_commands.ui $HOME/SystemCallApp
+cp commandlist.py $HOME/SystemCallApp
 cp startscapp.sh $HOME
 cp assets/ -r $HOME/SystemCallApp/
 
