@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=System Call
-Exec=sh /home/hayukimori/startscapp.sh 
-Terminal=false
-Type=Application
-StartupNotify=true
