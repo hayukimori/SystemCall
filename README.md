@@ -35,6 +35,15 @@ contato: hayukimori@gmail.com
 
 
 
+**Apoiadores do Projeto**
+
+Júnior
+Bruno (Nmikkaze)
+Misto Quente
+
+
+
+
 **Versão**
 
 Atualmente está na versão 1.1, mais versões serão enviadas futuramente
