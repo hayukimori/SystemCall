@@ -4,7 +4,7 @@ O projeto consiste em recriar do zero o sistema de _System Call_ de Sword Art On
 
 Para facilitar a edição, fizemos o projeto totalmente em python e shell (GG Easy)
 
-*Criadores*
+*Desenvolvedores*
 
 * Hayukimori 
 * Kitsune
