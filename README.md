@@ -51,4 +51,3 @@ contatos:
 
 Atualmente está na versão 1.1, mais versões serão enviadas futuramente
 
-_Próxima atualização prevista: 01/02/2021_
