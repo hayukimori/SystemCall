@@ -9,21 +9,21 @@ Para facilitar a edição, fizemos o projeto totalmente em python e shell (GG Ea
 * Hayukimori 
 * Kitsune
 * Rinne_10
+* Redson
 
 
 ----------------------------------------------------
 
-**Instalação(Linux)**
+**Instalação (GNU/Linux)**
 
-Para instalar o SystemCall, descompacte o arquivo e entre nele.
-Após descompactar, abra o terminal e digite:
+Para instalar o SystemCall nas distros suportadas(Debian based & Arch Based) execute os seguintes comandos:
 
-`cd SystemCall && chmod +x install`
-`./install`
+`curl -o install.sh https://raw.githubusercontent.com/RedsonBr140/SystemCall/main/install.sh && chmod +x install.sh`
+`./install.sh`
 
 
-Os programas "Python3, Python3-pip, SpeechRecognition(pip3), Pygame(pip3) e pyqt5 " serão instalados automaticamente
-os arquivos principais e adicionais também serão copiados para a pasta Home do usuário
+Os programas "Python3, Python3-pip, SpeechRecognition(pip3),pyaudio(pip3) , Pygame(pip3) e pyqt5 " serão instalados automaticamente
+os arquivos principais e adicionais também serão copiados para a pasta .local/share/SystemCall, dentro da home do usuário
 
 ----------------------------------------------------
 
@@ -36,6 +36,7 @@ contatos:
 * hayukimori > hayukimori@gmail.com
 
 * kitsune > arthuramagalhaes1312@gmail.com
+* Redson > redsonbr81@protonmail.com
 
 
 **Apoiadores do Projeto**
@@ -44,11 +45,18 @@ contatos:
 * Bruno (Nmikkaze)
 * Misto Quente
 
+----------------------------------------------------
 
+**Changelog**
+* O Script de instalação foi recriado, assim sendo funcional em Distros baseadas no Debian e no Arch Linux.
+* Agora o SystemCallApp fica em /home/usuario/.local/share/SystemCallApp.
+* Agora o App é atrelado ao menu, e um atalho no desktop não é mais criado automaticamente.
+* mkdesktop.py foi removido, em favor do systemcall-py.desktop, agora localizado em /home/usuario/.local/applications/systemcall-py.desktop
 
 
 **Versão**
 
-Atualmente está na versão 1.1, mais versões serão enviadas futuramente
+Atualmente está na versão 1.1(patch_install), mais versões serão enviadas futuramente
 
-_Próxima atualização prevista: 01/02/2021_
+_Última atualização: 19:37_
+_Próxima atualização prevista: -
