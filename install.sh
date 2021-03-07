@@ -28,7 +28,7 @@ fi
 which pacman >/dev/null 2>&1
 if [ $? -eq 0 ]
 then
-    sudo pacman -S xterm git python3 python-pip xterm
+    sudo pacman -S xterm git python3 python-pip xterm --noconfirm
 fi
 
 # Dependencias do python
