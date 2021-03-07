@@ -51,7 +51,7 @@ mkdir $HOME/.local/share/SystemCallApp
 cp -r SystemCall/* $HOME/.local/share/SystemCallApp
 
 # Criando o Shortcut
-python3 SystemCall/mkdesktop.py
-cp systemcall-py.desktop $HOME/.local/share/applications/
+echo "Criando atalho no menu"
+cp SystemCall/systemcall-py.desktop $HOME/.local/share/applications/
 }
 Continuar
