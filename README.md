@@ -60,3 +60,10 @@ Atualmente está na versão 1.1(patch_install), mais versões serão enviadas fu
 
 _Última atualização: 7 de Março de 2021, às 19:44_
 _Próxima atualização prevista:_ -
+
+atenção equipe lunarpy, após aceitar o Pull Request, favor
+alterar  o comando para instalação:
+de:``curl -o install.sh https://raw.githubusercontent.com/RedsonBr140/SystemCall/main/install.sh && chmod +x install.sh``
+para: ``curl -o install.sh https://raw.githubusercontent.com/LunarPy/SystemCall/main/install.sh && chmod +x install.sh``
+Um abraço e xero do @RedsonBr ;)
+~~não esqueçam de apagar essa parte, rs~~
