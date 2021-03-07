@@ -58,5 +58,5 @@ contatos:
 
 Atualmente está na versão 1.1(patch_install), mais versões serão enviadas futuramente
 
-_Última atualização: 19:37_
-_Próxima atualização prevista: -
+_Última atualização: 7 de Março de 2021, às 19:44_
+_Próxima atualização prevista:_ -
