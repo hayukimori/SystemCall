@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Name=System Call
+Exec=xterm -e "python3 $HOME/.local/share/SystemCallApp/main.py"
+Terminal=false
+Type=Application
+StartupNotify=true
