@@ -19,7 +19,8 @@ Para facilitar a edição, fizemos o projeto totalmente em python e shell (GG Ea
 Para instalar o SystemCall nas distros suportadas(Debian based & Arch Based) execute os seguintes comandos:
 
 ``curl -o install.sh https://raw.githubusercontent.com/hayukimori/SystemCall/main/install.sh && chmod +x install.sh``
-`./install.sh`
+
+``./install.sh``
 
 
 Os programas "Python3, Python3-pip, SpeechRecognition(pip3),pyaudio(pip3) , Pygame(pip3) e pyqt5 " serão instalados automaticamente
